@@ -2,3 +2,6 @@ flask
 pandas
 flask-cors
 openpyxl
+prophet
+matplotlib
+numpy
