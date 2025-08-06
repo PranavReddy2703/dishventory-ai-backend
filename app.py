@@ -9,8 +9,7 @@ import matplotlib
 matplotlib.use('Agg')
 
 app = Flask(__name__)
-CORS(app, resources={
-     r"/predict": {"origins": ["http://localhost:3000", "https://dishventory-ai.vercel.app"]}})
+CORS(app, origins=["https://dishventory-ai.vercel.app"])
 
 
 # Ingredient mapping for one pepperoni pizza
